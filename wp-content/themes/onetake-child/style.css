@@ -1,0 +1,413 @@
+/*
+Theme Name: Onetake Pro Child
+Theme URI: https://www.hoothemes.com/themes/onetake.html
+Description: Tema Child per il tema Onetake Pro
+Author: Agenzia YES!
+Author URI: http://www.agenziayes.it/
+Template: onetake-pro
+Version: 0.1.0
+*/
+
+
+/*CSS aggiuntivi*/
+
+h1 {
+    margin-top:15px!important;
+    color:#ffffff!important;
+    font-size: 50px;
+    line-height: 60px;
+    text-shadow: 4px 1px 6px rgba(0, 0, 0, 1);
+    text-align: center;
+    font-weight:400;
+}
+h2 {
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+    font-size: 70px!important;
+    color:#ffffff;
+    text-align: center;
+    font-weight:500;
+}
+h2.titolo-paragrafo {
+	font-size:45px!important;
+	text-shadow: none;
+	color:#0070bd;
+}
+h3.intro {
+    color: #ffffff!important;
+    text-shadow: 4px 1px 6px rgba(0, 0, 0, 1);
+    text-align: center;
+}
+h4 {
+    font-size: 22px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+.logo-container .site-logo {
+	margin:10px 0px!important;
+}
+#logo-centrale {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#onetake-footer-container.footer-onepage .onetake-block-last,
+#onetake-footer-container .onetake-block-last {
+	padding:0px!important;
+	text-align:center;
+}
+#onetake-footer-container.footer-onepage .onetake-block-last a,
+#onetake-footer-container .onetake-block-last a {
+	color:#ffffff;
+	text-decoration:underline;
+}
+#onetake-footer-container.footer-onepage .onetake-block-last a:hover,
+#onetake-footer-container .onetake-block-last a:hover {
+	color:#ffffff;
+	text-decoration:none;
+}
+.footer-text {
+	font-size:16px!important;
+}
+#onetake-footer-container .onetake-block-last p {
+	color:#ffffff;
+        text-align:center;
+}
+footer .footer-widgets {
+    display: none;
+}
+.site-nav {
+	background-color:#ffffff!important;
+}
+p,li {
+	text-align:center;
+	margin:20px 0px;
+	line-height:25px;
+}
+li {
+	list-style:none;
+}
+.section-background1 p,
+.section-background2 p,
+.section-background3 p,
+.section-background4 p {
+	text-indent:-99999px;
+	height:200px!important;
+}
+.mobile,
+.iphone-land {
+	display:none!important;
+}
+
+/* OMBRE SEZIONI */
+section {
+	box-shadow: 0 0 25px -5px #000;
+}
+.section-background1,
+.section-background2,
+.section-background3,
+.section-background4 {
+	box-shadow: 0 0 25px -5px #000 inset;
+	height:500px;
+}
+
+.section {
+	padding-bottom:0px!important;
+}
+/*
+.section .container {
+	padding-bottom:15px!important;
+}
+.section-video .container {
+	padding-bottom:75px!important;
+}
+*/
+.section .container {
+	padding-bottom:30px!important;
+	padding-top:30px!important;
+}
+.section-home,
+.section-background1,
+.section-background2,
+.section-background3,
+.section-background4 {
+	background-size:cover!important;
+}
+/*Accentramento verticale box di testo*/
+.margin-perche {
+	margin-top:60px!important;
+}
+.margin-cose {
+	margin-top:55px!important;
+}
+.margin-puoi {
+	margin-top:40px!important;
+}
+.margin-scarica {
+	margin-top:80px!important;
+}
+.condizioni {
+	margin-top:30px;
+}
+
+/*****OSCURAMENTO SEZIONI PER VERSIONE MOLTORIDOTTA*****/
+.section-home,
+.section-background4,
+.section-perche,
+.section-background1,
+.section-cose,
+.section-background2,
+.section-puoi,
+.section-background3 {
+	display:none!important;
+}
+section {
+	box-shadow:none!important;
+}
+#onetake-head-container {
+	border-bottom:none!important;
+}
+/*****FINE OSCURAMENTO SEZIONI PER VERSIONE MOLTORIDOTTA*****/
+
+
+.section-idea,
+.section-scarica,
+.site-nav-toggle {
+	display:none!important;
+}
+
+
+/*****SEZIONI POLICY*****/
+.page-id-76 p,
+.page-id-82 p,
+.page-id-76 li,
+.page-id-82 li {
+	text-align:left;
+}
+.page-id-76 ol li,
+.page-id-82 ol li,
+.page-id-76 ul li,
+.page-id-82 ul li {
+	list-style:initial;
+}
+.page-id-76 h1,
+.page-id-82 h1 {
+    margin-top: 15px!important;
+    color: #000000!important;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    text-shadow: none;
+}
+
+/******************************************************
+                    MEDIA QUERIES
+******************************************************/
+
+
+/******************************************************
+                IPAD LANDSCAPE 1024PX
+******************************************************/
+@media only screen and (max-width: 1024px) {
+	section {
+		padding-top:0px;
+	}
+	h1 {
+		font-size:40px;
+	}
+	h2 {
+		font-size:60px!important;
+	}
+	h2.titolo-paragrafo {
+    		font-size: 38px!important;
+	}
+	.section-home {
+		background-image: url("https://web.archive.org/web/20190210201900im_/http://www.businessmakerapp.com/wp-content/uploads/2016/04/bg1new_1024.jpg")!important;
+		background-attachment: scroll!important;
+	}
+	.section-background1 {
+		background-image: url("https://web.archive.org/web/20190210201900im_/http://www.businessmakerapp.com/wp-content/uploads/2016/04/bg2new_1024.jpg")!important;
+		background-attachment: scroll!important;
+	}
+	.section-background2 {
+		background-image: url("https://web.archive.org/web/20190210201900im_/http://www.businessmakerapp.com/wp-content/uploads/2016/04/bg3new_1024.jpg")!important;
+		background-attachment: scroll!important;
+	}
+	.section-background3 {
+		background-image: url("https://web.archive.org/web/20190210201900im_/http://www.businessmakerapp.com/wp-content/uploads/2016/04/bg4new_1024.jpg")!important;
+		background-attachment: scroll!important;
+	}
+	.section-background4 {
+		background-image: url("https://web.archive.org/web/20190210201900im_/http://www.businessmakerapp.com/wp-content/uploads/2016/04/bg5new_1024.jpg")!important;
+		background-attachment: scroll!important;
+	}
+/*Accentramento verticale box di testo*/
+.margin-perche {
+	margin-top:50px!important;
+}
+.margin-cose {
+	margin-top:45px!important;
+}
+.margin-puoi {
+	margin-top:20px!important;
+}
+.margin-scarica {
+	margin-top:70px!important;
+}
+iframe.full {
+	width:940px!important;
+	height:528px!important;
+}
+
+/* Modifiche per sezione ridotta */
+h2.titolo-paragrafo {
+    font-size: 34px!important;
+}
+h4 {
+    font-size: 16px;
+}
+section.section p {
+    font-size: 14px!important;
+}
+}/**************FINE IPAD LANDSCAPE 1024PX**************/
+
+
+
+
+
+/******************************************************
+                IPAD PORTRATE 768PX
+******************************************************/
+@media only screen and (max-width: 768px) {
+	.section-background1,
+	.section-background2,
+	.section-background3,
+	.section-background4 {
+		height:350px!important;
+	}
+	.section-home {
+		background-image: url("https://web.archive.org/web/20190210201900im_/http://www.businessmakerapp.com/wp-content/uploads/2016/04/bg1new_768a.jpg")!important;
+		background-attachment: scroll!important;
+	}
+	.section-background1 {
+		background-image: url("https://web.archive.org/web/20190210201900im_/http://www.businessmakerapp.com/wp-content/uploads/2016/04/bg2new_768.jpg")!important;
+		background-attachment: scroll!important;
+	}
+	.section-background2 {
+		background-image: url("https://web.archive.org/web/20190210201900im_/http://www.businessmakerapp.com/wp-content/uploads/2016/04/bg3new_768.jpg")!important;
+		background-attachment: scroll!important;
+	}
+	.section-background3 {
+		background-image: url("https://web.archive.org/web/20190210201900im_/http://www.businessmakerapp.com/wp-content/uploads/2016/04/bg4new_768.jpg")!important;
+		background-attachment: scroll!important;
+	}
+	.section-background4 {
+		background-image: url("https://web.archive.org/web/20190210201900im_/http://www.businessmakerapp.com/wp-content/uploads/2016/04/bg5new_768.jpg")!important;
+		background-attachment: scroll!important;
+	}
+/*Accentramento verticale box di testo*/
+.margin-perche {
+	margin-top:60px!important;
+}
+.margin-cose {
+	margin-top:35px!important;
+}
+.margin-puoi {
+	margin-top:0px!important;
+}
+.margin-scarica {
+	margin-top:80px!important;
+}
+iframe.full {
+	width:720px!important;
+	height:405px!important;
+}
+
+}/**************FINE IPAD PORTRATE 768PX**************/
+
+
+
+
+
+/******************************************************
+                IPHONE LANDSCAPE 667PX
+******************************************************/
+@media only screen and (max-width: 667px) {
+	/*Accentramento verticale box di testo*/
+.margin-perche {
+	margin-top:0px!important;
+}
+.margin-cose {
+	margin-top:0px!important;
+}
+.margin-puoi {
+	margin-top:0px!important;
+}
+.margin-scarica {
+	margin-top:0px!important;
+}
+iframe.full {
+	width:637px!important;
+	height:359px!important;
+}
+.standard,
+.mobile {
+		display:none!important;
+	}
+.iphone-land {
+		display:block!important;
+	}
+}/**************FINE IPHONE LANDSCAPE 667PX**************/
+
+
+
+
+
+/******************************************************
+                IPAD PORTRATE 375PX
+******************************************************/
+@media only screen and (max-width: 375px) {
+	.standard,
+	.iphone-land {
+		display:none!important;
+	}
+	.mobile {
+		display:block!important;
+	}
+    	.section-home {
+		background-image: url("https://web.archive.org/web/20190210201900im_/http://www.businessmakerapp.com/wp-content/uploads/2016/04/bg1new_375.jpg")!important;
+		background-attachment: scroll!important;
+	}
+iframe.full {
+	width:345px!important;
+	height:194px!important;
+}
+.logo-container {
+	width:82%;
+}
+}/**************FINE IPAD PORTRATE 375PX**************/
+/*
+     FILE ARCHIVED ON 20:19:00 Feb 10, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:55:12 May 27, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.597
+  exclusion.robots: 0.088
+  exclusion.robots.policy: 0.08
+  esindex: 0.009
+  cdx.remote: 16.717
+  LoadShardBlock: 182.442 (3)
+  PetaboxLoader3.datanode: 152.936 (4)
+  PetaboxLoader3.resolve: 459.947 (2)
+  load_resource: 539.867
+*/
